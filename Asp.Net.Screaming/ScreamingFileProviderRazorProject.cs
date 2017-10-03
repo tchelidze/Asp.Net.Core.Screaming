@@ -6,9 +6,13 @@ using Microsoft.Extensions.Options;
 
 namespace Asp.Net.Screaming
 {
+    /// <summary>
+    ///     Adds support of _ViewImports and _ViewStart for screaming architecture style folder structure
+    /// </summary>
     public class ScreamingFileProviderRazorProject : FileProviderRazorProject
     {
         readonly ScremaingOptions _screamingOptions;
+
         public ScreamingFileProviderRazorProject(
             IRazorViewEngineFileProviderAccessor accessor,
             IOptions<ScremaingOptions> screamingOptionss)

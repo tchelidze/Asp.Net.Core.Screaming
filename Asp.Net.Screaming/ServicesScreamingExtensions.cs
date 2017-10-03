@@ -7,9 +7,13 @@ namespace Asp.Net.Screaming
 {
     public static class ServicesScreamingExtensions
     {
+        /// <summary>
+        ///     Adds screaming architecture style folder structure support
+        /// </summary>
         public static void AddScreaming(this IServiceCollection services)
             => AddScreaming(services, opts => { });
 
+        /// <inheritdoc cref="AddScreaming(Microsoft.Extensions.DependencyInjection.IServiceCollection)" />
         public static void AddScreaming(this IServiceCollection services, Action<ScremaingOptions> configureScreamingOptions)
         {
             var screamingOptions = new ScremaingOptions();

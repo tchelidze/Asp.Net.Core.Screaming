@@ -12564,11 +12564,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "c:\\Users\\User\\source\\repos\\Asp.Net.Screaming\\Asp.Net.Screaming.Demo\\Asp.Net.Screaming.Demo.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Asp.Net.Screaming\\Asp.Net.Screaming.Demo\\Asp.Net.Screaming.Demo.csproj",
       "projectName": "Asp.Net.Screaming.Demo",
-      "projectPath": "c:\\Users\\User\\source\\repos\\Asp.Net.Screaming\\Asp.Net.Screaming.Demo\\Asp.Net.Screaming.Demo.csproj",
+      "projectPath": "C:\\Users\\User\\source\\repos\\Asp.Net.Screaming\\Asp.Net.Screaming.Demo\\Asp.Net.Screaming.Demo.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\User\\source\\repos\\Asp.Net.Screaming\\Asp.Net.Screaming.Demo\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\Asp.Net.Screaming\\Asp.Net.Screaming.Demo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12589,8 +12589,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "c:\\Users\\User\\source\\repos\\Asp.Net.Screaming\\Asp.Net.Screaming\\Asp.Net.Screaming.csproj": {
-              "projectPath": "c:\\Users\\User\\source\\repos\\Asp.Net.Screaming\\Asp.Net.Screaming\\Asp.Net.Screaming.csproj"
+            "C:\\Users\\User\\source\\repos\\Asp.Net.Screaming\\Asp.Net.Screaming\\Asp.Net.Screaming.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\Asp.Net.Screaming\\Asp.Net.Screaming\\Asp.Net.Screaming.csproj"
             }
           }
         }
