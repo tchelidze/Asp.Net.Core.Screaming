@@ -7,7 +7,7 @@ Screaming architecture implmentation for ASP.NET Core 2.0
 # Installation
 
 ```
-PM> Install-Package Hangfire
+PM> Install-Package Asp.Net.Screaming
 ```
 
 After installation, add following line of code into `ConfigureServices` method of `Startup` class.
