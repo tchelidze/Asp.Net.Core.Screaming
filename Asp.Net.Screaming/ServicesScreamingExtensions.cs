@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.AspNetCore.Razor.Language;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Asp.Net.Screaming
+namespace Asp.Net.Core.Screaming
 {
     public static class ServicesScreamingExtensions
     {

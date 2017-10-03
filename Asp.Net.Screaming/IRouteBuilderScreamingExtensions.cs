@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Routing;
 
-namespace Asp.Net.Screaming
+namespace Asp.Net.Core.Screaming
 {
     public static class IRouteBuilderScreamingExtensions
     {

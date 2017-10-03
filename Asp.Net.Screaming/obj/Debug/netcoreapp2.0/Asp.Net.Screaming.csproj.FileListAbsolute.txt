@@ -6,3 +6,4 @@ c:\users\user\source\repos\Asp.Net.Screaming\Asp.Net.Screaming\obj\Debug\netcore
 c:\Users\User\source\repos\Asp.Net.Screaming\Asp.Net.Screaming\bin\Debug\netcoreapp2.0\Asp.Net.Screaming.pdb
 c:\Users\User\source\repos\Asp.Net.Screaming\Asp.Net.Screaming\obj\Debug\netcoreapp2.0\Asp.Net.Screaming.dll
 c:\Users\User\source\repos\Asp.Net.Screaming\Asp.Net.Screaming\obj\Debug\netcoreapp2.0\Asp.Net.Screaming.pdb
+C:\Users\User\source\repos\Asp.Net.Screaming\Asp.Net.Screaming\obj\Debug\netcoreapp2.0\Asp.Net.Screaming.csprojResolveAssemblyReference.cache

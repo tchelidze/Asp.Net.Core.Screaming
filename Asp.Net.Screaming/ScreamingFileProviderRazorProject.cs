@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc.Razor.Internal;
 using Microsoft.AspNetCore.Razor.Language;
 using Microsoft.Extensions.Options;
 
-namespace Asp.Net.Screaming
+namespace Asp.Net.Core.Screaming
 {
     /// <summary>
     ///     Adds support of _ViewImports and _ViewStart for screaming architecture style folder structure

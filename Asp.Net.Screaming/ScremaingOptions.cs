@@ -1,4 +1,4 @@
-﻿namespace Asp.Net.Screaming
+﻿namespace Asp.Net.Core.Screaming
 {
     public class ScremaingOptions
     {
