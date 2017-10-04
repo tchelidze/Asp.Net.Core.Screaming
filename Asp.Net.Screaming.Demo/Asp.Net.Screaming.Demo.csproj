@@ -5,6 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Asp.Net.Screaming" Version="1.0.0" />
+    <PackageReference Include="JetBrains.Annotations" Version="11.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
   </ItemGroup>
 
@@ -15,10 +17,6 @@
   <ItemGroup>
     <Folder Include="Features\HomePage\Models\" />
     <Folder Include="Features\Membership\Models\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Asp.Net.Screaming\Asp.Net.Core.Screaming.csproj" />
   </ItemGroup>
 
 </Project>

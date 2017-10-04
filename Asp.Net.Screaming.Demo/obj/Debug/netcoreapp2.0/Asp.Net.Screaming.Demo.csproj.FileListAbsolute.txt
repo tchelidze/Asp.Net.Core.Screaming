@@ -1,4 +1,3 @@
-c:\Users\User\source\repos\Asp.Net.Screaming\Asp.Net.Screaming.Demo\obj\Debug\netcoreapp2.0\Asp.Net.Screaming.Demo.csprojResolveAssemblyReference.cache
 c:\Users\User\source\repos\Asp.Net.Screaming\Asp.Net.Screaming.Demo\obj\Debug\netcoreapp2.0\Asp.Net.Screaming.Demo.csproj.CoreCompileInputs.cache
 c:\Users\User\source\repos\Asp.Net.Screaming\Asp.Net.Screaming.Demo\obj\Debug\netcoreapp2.0\Asp.Net.Screaming.Demo.AssemblyInfoInputs.cache
 c:\Users\User\source\repos\Asp.Net.Screaming\Asp.Net.Screaming.Demo\obj\Debug\netcoreapp2.0\Asp.Net.Screaming.Demo.AssemblyInfo.cs
@@ -7,7 +6,6 @@ c:\Users\User\source\repos\Asp.Net.Screaming\Asp.Net.Screaming.Demo\bin\Debug\ne
 c:\Users\User\source\repos\Asp.Net.Screaming\Asp.Net.Screaming.Demo\bin\Debug\netcoreapp2.0\Asp.Net.Screaming.Demo.runtimeconfig.dev.json
 c:\Users\User\source\repos\Asp.Net.Screaming\Asp.Net.Screaming.Demo\bin\Debug\netcoreapp2.0\Asp.Net.Screaming.Demo.dll
 c:\Users\User\source\repos\Asp.Net.Screaming\Asp.Net.Screaming.Demo\bin\Debug\netcoreapp2.0\Asp.Net.Screaming.Demo.pdb
-c:\Users\User\source\repos\Asp.Net.Screaming\Asp.Net.Screaming.Demo\bin\Debug\netcoreapp2.0\Asp.Net.Screaming.dll
-c:\Users\User\source\repos\Asp.Net.Screaming\Asp.Net.Screaming.Demo\bin\Debug\netcoreapp2.0\Asp.Net.Screaming.pdb
 c:\Users\User\source\repos\Asp.Net.Screaming\Asp.Net.Screaming.Demo\obj\Debug\netcoreapp2.0\Asp.Net.Screaming.Demo.dll
 c:\Users\User\source\repos\Asp.Net.Screaming\Asp.Net.Screaming.Demo\obj\Debug\netcoreapp2.0\Asp.Net.Screaming.Demo.pdb
+C:\Users\User\source\repos\Asp.Net.Screaming\Asp.Net.Screaming.Demo\obj\Debug\netcoreapp2.0\Asp.Net.Screaming.Demo.csprojResolveAssemblyReference.cache

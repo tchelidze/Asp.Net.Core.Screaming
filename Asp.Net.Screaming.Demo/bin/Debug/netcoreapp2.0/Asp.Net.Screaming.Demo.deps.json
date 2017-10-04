@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "a7aa306d2e264d92ffef06296341a5e29b6e41eb"
+    "signature": "6782aa3d8277b27d05e86092ba242a4752602b31"
   },
   "compilationOptions": {
     "defines": [
@@ -32,6 +32,20 @@
         },
         "compile": {
           "Asp.Net.Screaming.Demo.dll": {}
+        }
+      },
+      "Asp.Net.Screaming/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "Microsoft.AspNetCore.Mvc.Razor": "2.0.0",
+          "Microsoft.AspNetCore.Razor.Language": "2.0.0",
+          "Microsoft.AspNetCore.Routing": "2.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/Asp.Net.Screaming.dll": {}
+        },
+        "compile": {
+          "lib/netcoreapp2.0/Asp.Net.Screaming.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -3795,20 +3809,6 @@
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
       },
-      "Asp.Net.Screaming/1.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
-          "Microsoft.AspNetCore.Mvc.Razor": "2.0.0",
-          "Microsoft.AspNetCore.Razor.Language": "2.0.0",
-          "Microsoft.AspNetCore.Routing": "2.0.0"
-        },
-        "runtime": {
-          "Asp.Net.Screaming.dll": {}
-        },
-        "compile": {
-          "Asp.Net.Screaming.dll": {}
-        }
-      },
       "Microsoft.NETCore.App/2.0.0": {
         "dependencies": {
           "Microsoft.NETCore.DotNetHostPolicy": "2.0.0",
@@ -3992,6 +3992,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Asp.Net.Screaming/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K/megWyy9q1ZSczNM2VMxRx8NEYNBFTIANT6t7NlP43Ju44FZf6x0ZitYwTKYJvb+9eQ2nz05Esz6E3w7nNWTw==",
+      "path": "asp.net.screaming/1.0.0",
+      "hashPath": "asp.net.screaming.1.0.0.nupkg.sha512"
     },
     "Libuv/1.10.0": {
       "type": "package",
@@ -5994,11 +6001,6 @@
       "sha512": "sha512-W6ZZ0/o7+3Qb77mRAQyLjPudHG3OMeeQ4p9yY13PUdJArmRCx2cLMm5F4tpIjJXxzHC0ew0oK7DMDGILMdfCnw==",
       "path": "windowsazure.storage/8.1.4",
       "hashPath": "windowsazure.storage.8.1.4.nupkg.sha512"
-    },
-    "Asp.Net.Screaming/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "Microsoft.NETCore.App/2.0.0": {
       "type": "package",

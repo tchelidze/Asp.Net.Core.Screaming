@@ -2,6 +2,33 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
+      "Asp.Net.Screaming/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
+          "microsoft.aspnetcore.mvc.razor": "2.0.0",
+          "microsoft.aspnetcore.razor.language": "2.0.0",
+          "microsoft.aspnetcore.routing": "2.0.0"
+        },
+        "compile": {
+          "lib/netcoreapp2.0/Asp.Net.Screaming.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/Asp.Net.Screaming.dll": {}
+        }
+      },
+      "JetBrains.Annotations/11.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime": "4.1.0"
+        },
+        "compile": {
+          "lib/netstandard1.0/JetBrains.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/JetBrains.Annotations.dll": {}
+        }
+      },
       "Libuv/1.10.0": {
         "type": "package",
         "dependencies": {
@@ -4746,26 +4773,38 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
-      },
-      "Asp.Net.Screaming/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
-          "microsoft.aspnetcore.mvc.razor": "2.0.0",
-          "microsoft.aspnetcore.razor.language": "2.0.0",
-          "microsoft.aspnetcore.routing": "2.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Asp.Net.Screaming.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Asp.Net.Screaming.dll": {}
-        }
       }
     }
   },
   "libraries": {
+    "Asp.Net.Screaming/1.0.0": {
+      "sha512": "K/megWyy9q1ZSczNM2VMxRx8NEYNBFTIANT6t7NlP43Ju44FZf6x0ZitYwTKYJvb+9eQ2nz05Esz6E3w7nNWTw==",
+      "type": "package",
+      "path": "asp.net.screaming/1.0.0",
+      "files": [
+        "asp.net.screaming.1.0.0.nupkg.sha512",
+        "asp.net.screaming.nuspec",
+        "lib/netcoreapp2.0/Asp.Net.Screaming.dll"
+      ]
+    },
+    "JetBrains.Annotations/11.0.0": {
+      "sha512": "uDDdSzkmTOPuMa9Jct1mYLhE3sr8F4fnpgACFzb5Fsrf1CAaljFFKdd4b7EqjpJ0S/07HnZcw5xXHwiyYk3qoA==",
+      "type": "package",
+      "path": "jetbrains.annotations/11.0.0",
+      "files": [
+        "jetbrains.annotations.11.0.0.nupkg.sha512",
+        "jetbrains.annotations.nuspec",
+        "lib/net20/JetBrains.Annotations.dll",
+        "lib/net20/JetBrains.Annotations.xml",
+        "lib/netstandard1.0/JetBrains.Annotations.deps.json",
+        "lib/netstandard1.0/JetBrains.Annotations.dll",
+        "lib/netstandard1.0/JetBrains.Annotations.xml",
+        "lib/portable-net4+sl4+wp7+netcore45/JetBrains.Annotations.dll",
+        "lib/portable-net4+sl4+wp7+netcore45/JetBrains.Annotations.xml",
+        "lib/portable-net4+sl50+win8+wpa81+wp8/JetBrains.Annotations.dll",
+        "lib/portable-net4+sl50+win8+wpa81+wp8/JetBrains.Annotations.xml"
+      ]
+    },
     "Libuv/1.10.0": {
       "sha512": "GsCf4q+eyaI49rCPlgYxdxa1SQCysXFFdSJWdstrwxytg4+VPYLYrXD4AT2rjHVJ+UF7SSWX9CapWEYaU4ejVQ==",
       "type": "package",
@@ -12540,16 +12579,12 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
-    },
-    "Asp.Net.Screaming/1.0.0": {
-      "type": "project",
-      "path": "../Asp.Net.Screaming/Asp.Net.Screaming.csproj",
-      "msbuildProject": "../Asp.Net.Screaming/Asp.Net.Screaming.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Asp.Net.Screaming >= 1.0.0",
+      "JetBrains.Annotations >= 11.0.0",
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
@@ -12588,11 +12623,7 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\Asp.Net.Screaming\\Asp.Net.Screaming\\Asp.Net.Screaming.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\Asp.Net.Screaming\\Asp.Net.Screaming\\Asp.Net.Screaming.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -12604,6 +12635,14 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "Asp.Net.Screaming": {
+            "target": "Package",
+            "version": "1.0.0"
+          },
+          "JetBrains.Annotations": {
+            "target": "Package",
+            "version": "11.0.0"
+          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "2.0.0",
