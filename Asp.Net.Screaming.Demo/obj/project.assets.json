@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "Asp.Net.Screaming/1.0.0": {
+      "Asp.Net.Core.Screaming/1.1.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0",
@@ -11,10 +11,10 @@
           "microsoft.aspnetcore.routing": "2.0.0"
         },
         "compile": {
-          "lib/netcoreapp2.0/Asp.Net.Screaming.dll": {}
+          "lib/netcoreapp2.0/Asp.Net.Core.Screaming.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp2.0/Asp.Net.Screaming.dll": {}
+          "lib/netcoreapp2.0/Asp.Net.Core.Screaming.dll": {}
         }
       },
       "JetBrains.Annotations/11.0.0": {
@@ -4777,14 +4777,14 @@
     }
   },
   "libraries": {
-    "Asp.Net.Screaming/1.0.0": {
-      "sha512": "K/megWyy9q1ZSczNM2VMxRx8NEYNBFTIANT6t7NlP43Ju44FZf6x0ZitYwTKYJvb+9eQ2nz05Esz6E3w7nNWTw==",
+    "Asp.Net.Core.Screaming/1.1.0": {
+      "sha512": "eJE7ryBciq38BFneshw+64t8mbDSIdDf5kIUPkFaiy/l5YsTIZ8iFM+dKk+PhkUyoP+pW3DWcvL3B2PUkPDC4A==",
       "type": "package",
-      "path": "asp.net.screaming/1.0.0",
+      "path": "asp.net.core.screaming/1.1.0",
       "files": [
-        "asp.net.screaming.1.0.0.nupkg.sha512",
-        "asp.net.screaming.nuspec",
-        "lib/netcoreapp2.0/Asp.Net.Screaming.dll"
+        "asp.net.core.screaming.1.1.0.nupkg.sha512",
+        "asp.net.core.screaming.nuspec",
+        "lib/netcoreapp2.0/Asp.Net.Core.Screaming.dll"
       ]
     },
     "JetBrains.Annotations/11.0.0": {
@@ -12583,7 +12583,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
-      "Asp.Net.Screaming >= 1.0.0",
+      "Asp.Net.Core.Screaming >= 1.1.0",
       "JetBrains.Annotations >= 11.0.0",
       "Microsoft.AspNetCore.All >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
@@ -12635,10 +12635,6 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Asp.Net.Screaming": {
-            "target": "Package",
-            "version": "1.0.0"
-          },
           "JetBrains.Annotations": {
             "target": "Package",
             "version": "11.0.0"
@@ -12651,6 +12647,10 @@
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "2.0.0"
+          },
+          "Asp.Net.Core.Screaming": {
+            "target": "Package",
+            "version": "1.1.0"
           }
         },
         "imports": [

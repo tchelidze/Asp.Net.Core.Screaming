@@ -1,3 +1,7 @@
+C:\Users\User\source\repos\Asp.Net.Screaming\Asp.Net.Screaming.Demo\bin\Release\netcoreapp2.0\Asp.Net.Screaming.Demo.deps.json
+C:\Users\User\source\repos\Asp.Net.Screaming\Asp.Net.Screaming.Demo\bin\Release\netcoreapp2.0\Asp.Net.Screaming.Demo.runtimeconfig.json
+C:\Users\User\source\repos\Asp.Net.Screaming\Asp.Net.Screaming.Demo\bin\Release\netcoreapp2.0\Asp.Net.Screaming.Demo.runtimeconfig.dev.json
+C:\Users\User\source\repos\Asp.Net.Screaming\Asp.Net.Screaming.Demo\bin\Release\netcoreapp2.0\Asp.Net.Screaming.Demo.dll
 C:\Users\User\source\repos\Asp.Net.Screaming\Asp.Net.Screaming.Demo\obj\Release\netcoreapp2.0\Asp.Net.Screaming.Demo.csprojResolveAssemblyReference.cache
 C:\Users\User\source\repos\Asp.Net.Screaming\Asp.Net.Screaming.Demo\obj\Release\netcoreapp2.0\Asp.Net.Screaming.Demo.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\Asp.Net.Screaming\Asp.Net.Screaming.Demo\obj\Release\netcoreapp2.0\Asp.Net.Screaming.Demo.AssemblyInfoInputs.cache
