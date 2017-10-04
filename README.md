@@ -29,9 +29,9 @@ app.UseMvc(routes =>
 
 In order resharper to recognize custom view locations and enable intellisense
 
-* Install JetBrains.Annotation nuget package
+* `Install-Package JetBrains.Annotations`
 
-* Add empty `AssemblyAttributes.cs` file at top level of startup project
+* Add **empty** `AssemblyAttributes.cs` file at **top level** of startup project
 
 * Add following to `AssemblyAttributes.cs`
 
