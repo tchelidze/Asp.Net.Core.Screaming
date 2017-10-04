@@ -2,7 +2,7 @@
 
 # Overview
 
-Screaming architecture implmentation for ASP.NET Core 2.0
+Enables custom view location according to screaming architecture in ASP.NET Core 2.0
 
 # Installation
 
