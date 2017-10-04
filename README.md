@@ -2,12 +2,12 @@
 
 # Overview
 
-Screaming architecture implmentation for ASP.NET Core 2.0
+Enables custom view location according to screaming architecture in ASP.NET Core 2.0
 
 # Installation
 
 ```
-PM> Install-Package Asp.Net.Screaming
+PM> Install-Package Asp.Net.Core.Screaming
 ```
 
 After installation, add following line of code into `ConfigureServices` method of `Startup` class.
@@ -29,9 +29,9 @@ app.UseMvc(routes =>
 
 In order resharper to recognize custom view locations and enable intellisense
 
-* Install JetBrains.Annotation nuget package
+* `Install-Package JetBrains.Annotations`
 
-* Add empty `AssemblyAttributes.cs` file at top level of startup project
+* Add **empty** `AssemblyAttributes.cs` file at **top level** of startup project
 
 * Add following to `AssemblyAttributes.cs`
 
