@@ -4,7 +4,7 @@
 
 Enables custom view location according to screaming architecture in ASP.NET Core 2.0
 
-# Installation
+# [Nuget](https://www.nuget.org/packages/Asp.Net.Core.Screaming/)
 
 ```
 PM> Install-Package Asp.Net.Core.Screaming
@@ -16,7 +16,7 @@ After installation, add following line of code into `ConfigureServices` method o
 services.AddScreaming();
 ```
 
-Add `ScreamingRout` `AddMvc` method parameter inside `Cofigure` method of `Statup.
+Add `ScreamingRoute` as part of mvc route configuration. 
 
 ```c#
 app.UseMvc(routes =>
