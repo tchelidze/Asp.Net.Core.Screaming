@@ -42,7 +42,7 @@ using JetBrains.Annotations;
 [assembly: AspMvcViewLocationFormat(@"~\Features\Membership\Views\{1}\{0}.cshtml")]
 [assembly: AspMvcViewLocationFormat(@"~\Features\Shared\Views\{0}.cshtml")]
 ```
-*Replace `Features` with your custom `FeaturesContainerName` if you have one*
+*Replace `Features` with your custom `FeaturesContainerName` if you have specified custom feauter name in `services.AddScreaming()`*
 
-**Resharper [does not support area placeholders](https://resharper-support.jetbrains.com/hc/en-us/community/posts/115000351724-Asp-net-Core-MVCAreas-not-showing-up-in-asp-area-tag-helper) inside `AspMvcViewLocationFormat` attribute. So you have to explicitly add new `AspMvcViewLocationFormat` for each feature folder you add.**
+**Resharper [does not support area placeholders](https://resharper-support.jetbrains.com/hc/en-us/community/posts/115000351724-Asp-net-Core-MVCAreas-not-showing-up-in-asp-area-tag-helper) inside `AspMvcViewLocationFormat` attribute. So you have to explicitly add new `AspMvcViewLocationFormat` for each `Features` folder's subfolder (like `HomePage`, `Membership`, etc).**
 
