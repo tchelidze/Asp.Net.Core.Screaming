@@ -10,6 +10,8 @@ Enables custom view location according to screaming architecture in ASP.NET Core
 PM> Install-Package Asp.Net.Core.Screaming
 ```
 
+# Usage
+
 After installation, add following line of code into `ConfigureServices` method of `Startup` class.
 
 ```c#
