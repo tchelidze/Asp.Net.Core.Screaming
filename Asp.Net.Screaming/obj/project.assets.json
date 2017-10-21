@@ -7405,16 +7405,16 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.1.0",
+    "version": "1.1.1",
     "restoreSettings": {
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Asp.Net.Screaming\\Asp.Net.Screaming\\Asp.Net.Core.Screaming.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Repos\\Asp.Net.Core.Screaming\\Asp.Net.Screaming\\Asp.Net.Core.Screaming.csproj",
       "projectName": "Asp.Net.Core.Screaming",
-      "projectPath": "C:\\Users\\User\\source\\repos\\Asp.Net.Screaming\\Asp.Net.Screaming\\Asp.Net.Core.Screaming.csproj",
+      "projectPath": "C:\\Users\\User\\Repos\\Asp.Net.Core.Screaming\\Asp.Net.Screaming\\Asp.Net.Core.Screaming.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\Asp.Net.Screaming\\Asp.Net.Screaming\\obj\\",
+      "outputPath": "C:\\Users\\User\\Repos\\Asp.Net.Core.Screaming\\Asp.Net.Screaming\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

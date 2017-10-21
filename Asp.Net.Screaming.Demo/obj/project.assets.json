@@ -12599,11 +12599,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Asp.Net.Screaming\\Asp.Net.Screaming.Demo\\Asp.Net.Screaming.Demo.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Repos\\Asp.Net.Core.Screaming\\Asp.Net.Screaming.Demo\\Asp.Net.Screaming.Demo.csproj",
       "projectName": "Asp.Net.Screaming.Demo",
-      "projectPath": "C:\\Users\\User\\source\\repos\\Asp.Net.Screaming\\Asp.Net.Screaming.Demo\\Asp.Net.Screaming.Demo.csproj",
+      "projectPath": "C:\\Users\\User\\Repos\\Asp.Net.Core.Screaming\\Asp.Net.Screaming.Demo\\Asp.Net.Screaming.Demo.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\Asp.Net.Screaming\\Asp.Net.Screaming.Demo\\obj\\",
+      "outputPath": "C:\\Users\\User\\Repos\\Asp.Net.Core.Screaming\\Asp.Net.Screaming.Demo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

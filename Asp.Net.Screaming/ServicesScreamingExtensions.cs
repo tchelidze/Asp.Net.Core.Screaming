@@ -10,16 +10,18 @@ namespace Asp.Net.Core.Screaming
         /// <summary>
         ///     Adds screaming architecture style folder structure support
         /// </summary>
-        public static void AddScreaming(this IServiceCollection services)
+        public static IServiceCollection AddScreaming(this IServiceCollection services)
             => AddScreaming(services, opts => { });
 
         /// <inheritdoc cref="AddScreaming(Microsoft.Extensions.DependencyInjection.IServiceCollection)" />
-        public static void AddScreaming(this IServiceCollection services, Action<ScremaingOptions> configureScreamingOptions)
+        public static IServiceCollection AddScreaming(this IServiceCollection services, Action<ScremaingOptions> configureScreamingOptions)
         {
             var screamingOptions = new ScremaingOptions();
             configureScreamingOptions(screamingOptions);
             services.Configure(configureScreamingOptions);
             AddScreaming(services, screamingOptions);
+
+            return services;
         }
 
         static void AddScreaming(this IServiceCollection services, ScremaingOptions scremaingOptions)
